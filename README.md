@@ -3,7 +3,7 @@
 Descripción
 
 En este repositorio se podrá encontrar el código generado para hacer un estudio del change point detection. El propósito al que se quiere llegar es generar variables que en un punto futuro nos ayuden para la separación de variables, asi como el punto exacto en el cual el cambio de tendencia existe. Para poder llegar a estos resulatdos primero tenemos que decir que se utiliaron los metodos del change point que son el de segmentación binaria y el de segmentación basada en ventanas (binary segmentation & window-based segmentation).
-Creamos dos funciones que nos permiten encontrar estos resultados de forma clara y solo al hacer llamado de la función que necesites. Las dos funaciones son en base a los métodos analizados que como dijimos anteriormente son los de segmentación binaria y el de segmentación basada en ventanas.
+Creamos dos funciones que nos permiten encontrar estos resultados de forma clara y solo al hacer llamado de la función que necesites. Las dos funciones son en base a los métodos analizados que como dijimos anteriormente son los de segmentación binaria y el de segmentación basada en ventanas.
 
 Instalar dependencias. 
 
