@@ -1,8 +1,11 @@
 def window(data):
     '''
-    data: array[], de valores Close del activo EURUSD.
+    data: Valores del activo EURUSD.
     
     '''
+        
+    data = np.array(data.Close) #De los datos del activo, selecciona la columna Close y la hace un array.
+    
     n = len(data) #Tamaño de el array de datos.
     sigma = data.std() #Desviación estandar de los datos.
     p = np.log(n)*sigma**2 #Penalización que tiene el modelo.
