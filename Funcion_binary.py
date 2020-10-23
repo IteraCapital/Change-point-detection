@@ -1,8 +1,9 @@
 def binary(data):
     '''
-    data: array[], de valores Close del activo EURUSD.
+    data: Valores del activo EURUSD.
     
     '''
+    data = np.array(data.Close) #De los datos del activo, selecciona la columna Close y la hace un array.
     
     n = len(data) #Tamaño de los datos dentro del array.
     sigma = data.std() #Desvación estandar de los datos.
